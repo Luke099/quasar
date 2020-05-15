@@ -71,7 +71,8 @@ export default {
       return this.selected !== void 0
     },
     computedIcon () {
-      return this.icon || this.$q.icon.tree.icon
+      return 'ti-angle-right';
+      // return this.icon || this.$q.icon.tree.icon
     },
     computedControlColor () {
       return this.controlColor || this.color

@@ -33,6 +33,10 @@ export default {
       else if (icon.startsWith('mdi-')) {
         cls = `mdi ${icon}`
       }
+      // overright for tree icon
+      else if (icon.startsWith('ti-')) {
+        cls = `ti-angle-right`
+      }           
       else {
         cls = 'material-icons'
       }
